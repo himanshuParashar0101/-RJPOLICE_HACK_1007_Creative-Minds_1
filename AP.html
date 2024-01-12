@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anonymous Community Polls</title>
+  <link rel="stylesheet" href="assets\css\AP.css">
+</head>
+
+<body>
+  <div id="poll-container">
+    <h1>Anonymous Community Poll</h1>
+    <p>Conduct anonymous polls to gather community opinions on various issues and improvements.</p>
+
+    <div id="question-container">
+      <p id="question">What is your favorite option?</p>
+    </div>
+
+    <div id="options-container">
+      <div class="option" onclick="submitVote(1)">Option 1</div>
+      <div class="option" onclick="submitVote(2)">Option 2</div>
+      <div class="option" onclick="submitVote(3)">Option 3</div>
+      <div class="option" onclick="submitVote(4)">Option 4</div>
+    </div>
+
+    
+    <div id="result-container" style="display:none;">
+      <h2>Results</h2>
+      <div id="result-bars">
+        <!-- Bars will be dynamically added here -->
+      </div>
+      <p><a href="index.html"><i class="bi bi-house-door"></i> Go back to home</a></p>
+    </div>
+    
+    
+    </div>
+  </div>
+
+  <script src="assets\js\AP.js"></script>
+</body>
+
+</html>

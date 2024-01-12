@@ -3,173 +3,373 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets\css\style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <!-- Include the Swiper library -->
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-  <title>Social Media Platform</title>
+  <title>Social Connect</title>
+  <link rel="stylesheet" href="assets\css\shareconnect.css">
+  <script src="https://kit.fontawesome.com/0a6a6ef1bf.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-  <header>
-    <h1>Social Connect</h1>
-    <nav>
+  <nav>
+    <div class="nav-left">
+      <img src="assets\img\socialconnect\images\logo.png" class="logo">
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Explore</a></li>
-        <li><a href="#">Profile</a></li>
-        <li><a href="#">Settings</a></li>
+        <li><a href="#"><img src="assets\img\socialconnect\images\notification.png"></a></li>
+        <li><a href="#"><img src="assets\img\socialconnect\images\inbox.png"></a></li>
+        <li><a href="#"><img src="assets\img\socialconnect\images\video.png"></a></li>
       </ul>
-    </nav>
-  </header>
+    </div>
 
-  <main>
-    
-    <!-- Your existing sections -->
-
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Testimonials</h2>
-          <p>What Our Users Say</p>
-        </div>
-
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-            <!-- Testimonial 1 -->
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                  <h3>Saul Goodman</h3>
-                  <h4>CEO &amp; Founder</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- Testimonial 2 -->
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                  <h3>Sara Wilsson</h3>
-                  <h4>Designer</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- Testimonial 3 -->
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                  <h3>Jena Karlis</h3>
-                  <h4>Store Owner</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-              
-            </div>
-            <div class="swiper-slide">
-                <div class="testimonial-wrap">
-                  <div class="testimonial-item">
-                    <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                    <h3>Saul Goodman</h3>
-                    <h4>CEO &amp; Founder</h4>
-                    <p>
-                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                      Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="testimonial-wrap">
-                  <div class="testimonial-item">
-                    <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                    <h3>Saul Goodman</h3>
-                    <h4>CEO &amp; Founder</h4>
-                    <p>
-                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                      Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="testimonial-wrap">
-                  <div class="testimonial-item">
-                    <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                    <h3>Jena Karlis</h3>
-                    <h4>Store Owner</h4>
-                    <p>
-                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                      Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                    </p>
-                  </div>
-                </div>
-                
-              </div>
-              <div class="swiper-slide">
-                <div class="testimonial-wrap">
-                  <div class="testimonial-item">
-                    <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                    <h3>Jena Karlis</h3>
-                    <h4>Store Owner</h4>
-                    <p>
-                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                      Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                    </p>
-                  </div>
-                </div>
-                
-              </div>
-               <!-- Add more testimonials as needed -->
+      <div class = "nav-right">
+          <div class="search-box">
+              <img src="assets\img\socialconnect\images\search.png">
+              <input type ="text"placeholder="Search...">
           </div>
-          <div class="swiper-pagination"></div>
+          <div class="nav-user-icon online" onclick=" settingMenuToggle()">
+              <img src="assets\img\socialconnect\images\profile-pic.png">
+          </div>
+      </div>
+      <!--------------------------------settings menu---------------------->
+
+      <div class="settings-menu">
+        <div id="dark-btn" class="dark-btn-on">
+          <span></span>
         </div>
+        <div class="settings-menu-inner">
+          <div class="user-profile">
+            <img src="assets\img\socialconnect\images\profile-pic.png">
+            <div>
+                <p>John Nicholson</p>
+                <a href="#">see your profile</a>
+            </div>
+          </div>
+          <hr>
+          <div class="user-profile">
+            <img src="assets\img\socialconnect\images\feedback.png">
+            <div>
+                <p>Give Feedback</p>
+                <a href="#">Help Us To Improve The New Design</a>
+            </div>
+          </div>
+          <hr>
+
+          <div class="settings-links">
+            <img src="assets\img\socialconnect\images\setting.png" class="settings-icon">
+            <a href="#">settings & privacy</a><img src="assets\img\socialconnect\images\arrow.png" width="10px"</a>
+          </div>
+          <div class="settings-links">
+            <img src="assets\img\socialconnect\images\help.png"class="settings-icon">
+            <a href="#">Help&Support</a><img src="assets\img\socialconnect\images\arrow.png" width="10px"</a>
+          </div>
+
+          <div class="settings-links">
+            <img src="assets\img\socialconnect\images\display.png"class="settings-icon">
+            <a href="#">Display & accessibility</a><img src="assets\img\socialconnect\images\arrow.png" width="10px"</a>
+          </div>
+
+          <div class="settings-links">
+            <img src="assets\img\socialconnect\images\logout.png" class="settings-icon">
+            <a href="#">logout</a><img src="assets\img\socialconnect\images\arrow.png" width="10px"</a>
+          </div>
+
+
+        </div>
+        
+      </div>
+    </nav>
+      <div class="container">
+        <!-----------------------------left-sidebar------------------------->
+          <div class="left-sidebar">
+              <div class="imp-links">
+                <a href="#"><img src="assets\img\socialconnect\images\news.png"> Latest news</a>
+                <a href="#"><img src="assets\img\socialconnect\images\friends.png"> Friends</a>
+                <a href="#"><img src="assets\img\socialconnect\images\group.png"> Groups</a>
+                <a href="#"><img src="assets\img\socialconnect\images\marketplace.png"> Marketplaces</a>
+                <a href="#"><img src="assets\img\socialconnect\images\watch.png"> Watch</a>
+                <a href="#">See More</a>
+              </div>
+              <div class = "shortcut-links">
+                  <p>Your Shortcut </p>
+                  <a href="#"><img src="assets\img\socialconnect\images\shortcut-1.png">Web Developer</a>
+                  <a href="#"><img src="assets\img\socialconnect\images\shortcut-2.png">Web Design courses</a>
+                  <a href="#"><img src="assets\img\socialconnect\images\shortcut-3.png">Full Stack</a>
+                  <a href="#"><img src="assets\img\socialconnect\images\shortcut-4.png">webisite Expert</a>
+              </div>
+          </div>
+          <!------main-content----------->
+
+
+
+          <div class="main-content">
+              <div class="story-gallery">
+                <div class="story story1">
+                  <img src="assets\img\socialconnect\images\upload.png">
+                  <p>Post Story</p>
+                </div>
+                <div class="story  story2">
+                  <img src="assets\img\socialconnect\images\member-1.png">
+                  <p>Alison</p> 
+                </div>
+                <div class="story  story3">
+                  <img src="assets\img\socialconnect\images\member-2.png">
+                  <p>jackson</p>
+                </div>
+                <div class="story  story4">
+                  <img src="assets\img\socialconnect\images\member-3.png">
+                  <p>samona</p>
+                </div>
+                <div class="story  story5">
+                  <img src="assets\img\socialconnect\images\member-4.png">
+                  <p>john</p>
+                </div>
+
+              </div>
+              <div class="write-post-container">
+                <div class="user-profile">
+                  <img src="assets\img\socialconnect\images\profile-pic.png">
+                  <div>
+                      <p>John Nicholson</p>
+                      <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                  </div>
+                </div>
+                <div class="post-input-container">
+                  <textarea rows="3"placeholder="what's on your  mind , john"></textarea>
+                  <div class="add-post-links">
+                      <a href="#"><img src="assets\img\socialconnect\images\Live-video.png">LiveVideo</a>
+                      <a href="#"><img src="assets\img\socialconnect\images\photo.png">Photo/video</a>
+                      <a href="#"><img src="assets\img\socialconnect\images\feeling.png">Live Video</a>
+                  </div>
+                </div>
+
+              </div>
+              <div class="post-container">
+                <div class="post-row">
+                  <div class="user-profile">
+                    <img src="assets\img\socialconnect\images\profile-pic.png">
+                    <div>
+                        <p>John Nicholson</p>
+                        <span>june 24  2023,12:40pm</span>
+                    </div>
+                  </div>
+                  <a href=#><i class="fa-solid fa-ellipsis-v"></i> </a>
+                </div>
+                <p class="post-text">Subscribe to <span>@easytutorials.com</span> mene copy paste nhi , 
+                  khud type kra hain aai baat <a href="#">#Smaj</a> 
+                  <a href= "#">#Mein</a></p>
+                  <img src="assets\img\socialconnect\images\feed-image-1.png" class="post-img">
+
+                  <div class="post-row">
+                    <div class="activity-icons">
+                      <div><img src="assets\img\socialconnect\images\like-blue.png">120</div>
+                      <div><img src="assets\img\socialconnect\images\comments.png">45</div>
+                      <div><img src="assets\img\socialconnect\images\share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="assets\img\socialconnect\images\profile-pic.png"> <i class="fa-solid fa-caret-down"></i> 
+
+                    </div>
+
+                  </div>
+
+
+              </div>
+              <div class="post-container">
+                <div class="post-row">
+                  <div class="user-profile">
+                    <img src="assets\img\socialconnect\images\profile-pic.png">
+                    <div>
+                        <p>John Nicholson</p>
+                        <span>june 24  2023,12:40pm</span>
+                    </div>
+                  </div>
+                  <a href=#><i class="fa-solid fa-ellipsis-v"></i> </a>
+                </div>
+                <p class="post-text">Subscribe to <span>@easytutorials.com</span> mene copy paste nhi , 
+                  khud type kra hain aai baat <a href="#">#Smaj</a> 
+                  <a href= "#">#Mein</a></p>
+                  <img src="assets\img\socialconnect\images\feed-image-2.png" class="post-img">
+
+                  <div class="post-row">
+                    <div class="activity-icons">
+                      <div><img src="assets\img\socialconnect\images\like-blue.png">120</div>
+                      <div><img src="assets\img\socialconnect\images\comments.png">45</div>
+                      <div><img src="assets\img\socialconnect\images\share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="assets\img\socialconnect\images\profile-pic.png"> <i class="fa-solid fa-caret-down"></i> 
+
+                    </div>
+
+                  </div>
+
+
+              </div>
+
+              <div class="post-container">
+                <div class="post-row">
+                  <div class="user-profile">
+                    <img src="assets\img\socialconnect\images\profile-pic.png">
+                    <div>
+                        <p>John Nicholson</p>
+                        <span>june 24  2023,12:40pm</span>
+                    </div>
+                  </div>
+                  <a href=#><i class="fa-solid fa-ellipsis-v"></i> </a>
+                </div>
+                <p class="post-text">Subscribe to <span>@easytutorials.com</span> mene copy paste nhi , 
+                  khud type kra hain aai baat <a href="#">#Smaj</a> 
+                  <a href= "#">#Mein</a></p>
+                  <img src="assets\img\socialconnect\images\feed-image-3.png" class="post-img">
+
+                  <div class="post-row">
+                    <div class="activity-icons">
+                      <div><img src="assets\img\socialconnect\images\like-blue.png">120</div>
+                      <div><img src="assets\img\socialconnect\images\comments.png">45</div>
+                      <div><img src="assets\img\socialconnect\images\share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="assets\img\socialconnect\images\profile-pic.png"> <i class="fa-solid fa-caret-down"></i> 
+
+                    </div>
+
+                  </div>
+
+
+              </div>
+
+              <div class="post-container">
+                <div class="post-row">
+                  <div class="user-profile">
+                    <img src="assets\img\socialconnect\images\profile-pic.png">
+                    <div>
+                        <p>John Nicholson</p>
+                        <span>june 24  2023,12:40pm</span>
+                    </div>
+                  </div>
+                  <a href=#><i class="fa-solid fa-ellipsis-v"></i> </a>
+                </div>
+                <p class="post-text">Subscribe to <span>@easytutorials.com</span> mene copy paste nhi , 
+                  khud type kra hain aai baat <a href="#">#Smaj</a> 
+                  <a href= "#">#Mein</a></p>
+                  <img src="assets\img\socialconnect\images\feed-image-4.png" class="post-img">
+
+                  <div class="post-row">
+                    <div class="activity-icons">
+                      <div><img src="assets\img\socialconnect\images\like-blue.png">120</div>
+                      <div><img src="assets\img\socialconnect\images\comments.png">45</div>
+                      <div><img src="assets\img\socialconnect\images\share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="assets\img\socialconnect\images\profile-pic.png"> <i class="fa-solid fa-caret-down"></i> 
+
+                    </div>
+
+                  </div>
+
+
+              </div>
+
+              <div class="post-container">
+                <div class="post-row">
+                  <div class="user-profile">
+                    <img src="assets\img\socialconnect\images\profile-pic.png">
+                    <div>
+                        <p>John Nicholson</p>
+                        <span>june 24  2023,12:40pm</span>
+                    </div>
+                  </div>
+                  <a href=#><i class="fa-solid fa-ellipsis-v"></i> </a>
+                </div>
+                <p class="post-text">Subscribe to <span>@easytutorials.com</span> mene copy paste nhi , 
+                  khud type kra hain aai baat <a href="#">#Smaj</a> 
+                  <a href= "#">#Mein</a></p>
+                  <img src="assets\img\socialconnect\images\feed-image-5.png" class="post-img">
+
+                  <div class="post-row">
+                    <div class="activity-icons">
+                      <div><img src="assets\img\socialconnect\images\like-blue.png">120</div>
+                      <div><img src="assets\img\socialconnect\images\comments.png">45</div>
+                      <div><img src="assets\img\socialconnect\images\share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="assets\img\socialconnect\images\profile-pic.png"> <i class="fa-solid fa-caret-down"></i> 
+
+                    </div>
+
+                  </div>
+                </div>
+
+
+                <div class="button-container">
+                  <button class="bn5">Load More</button>
+                </div>
+                
+           </div>
+          <!------right-sidebar----------->
+          <div class="right-sidebar">
+
+              <div class ="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+              </div>
+              <div class="event">
+                <div class="left-event">
+                  <h3>18</h3>
+                  <span>march</span>
+                </div>
+                <div class="right-event">
+                  <h4>Social Media</h4>
+                  <p><i class="fas fa-location-dot"></i> William Tech Park </p>
+                  <a href="#">More Info</a>
+                </div>
+
+              </div>
+              <div class="event">
+                <div class="left-event">
+                  <h3>22</h3>
+                  <span>June</span>
+                </div>
+                <div class="right-event">
+                  <h4>Mobile Marketing</h4>
+                  <p><i class="fas fa-location-dot"></i> William Tech Park </p>
+                  <a href="#">More Info</a>
+                </div>
+              </div>
+
+              <div class ="sidebar-title">
+                  <h4>Advertisments</h4>
+                  <a href="#">Close</a>
+              </div>
+                  <img src="assets\img\socialconnect\images\advertisement.png"class="sidebar-ads">
+              <div class="sidebar-title">
+                  <h4>Conversations</h4>
+                  <a href="#">Hide Chat</a>
+              </div>
+              <div class="Online-List">
+                <div class="online">
+                  <img src="assets\img\socialconnect\images\member-1.png">
+                </div>
+                  <p>Alison </p>
+              </div>
+              <div class="Online-List">
+                <div class="online">
+                  <img src="assets\img\socialconnect\images\member-2.png">
+                </div>
+                  <p>Jhackson </p>
+              </div>
+              <div class="Online-List">
+                <div class="online">
+                  <img src="assets\img\socialconnect\images\member-3.png">
+                </div>
+                  <p>Samona</p>s
+              </div>
+          </div>
+          
+      </div>
+      <div class="footer">
+        <p class="copyright">Copyright 2024 - Made by Creative Minds with <span class="heart">&#10084;</span></p>
+
 
       </div>
-    </section><!-- End Testimonials Section -->
-
-    <!-- Your other sections -->
-
-  </main>
-
-  <footer>
-    <p>&copy; 2023 Social Connect</p>
-  </footer>
-
-  <!-- Include the Swiper library -->
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper('.testimonials-slider', {
-      loop: true,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-    });
-  </script>
-
+      <script src="assets\js\shareconnect.js"></script>
 </body>
 </html>

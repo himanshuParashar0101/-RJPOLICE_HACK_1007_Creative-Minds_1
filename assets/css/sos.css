@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  section {
+    padding: 80px 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .helplines {
+    padding: 50px 0;
+  }
+  
+  .helpline-box {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  
+    /* Set fixed height and width for the helpline boxes */
+    height: 250px; /* Adjust the height as needed */
+    width: 250px; /* Adjust the width as needed */
+  }
+  
+  .helpline-box i {
+    font-size: 48px;
+    color: #333;
+  }
+  
+  .helpline-box h4 {
+    margin: 20px 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .helpline-box p {
+    margin: 0;
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .women-helpline {
+    border: 2px solid #3498db;
+    background-color: #ff7e5f;
+  }
+  .police-control-room {
+    background-color: #f15bb5;
+  }
+  
+  .senior-citizens {
+    background-color: #47b8e0;
+  }
+  
+  .ambulance {
+    border: 2px solid #1abc9c;
+    background-color: #f9c74f;
+  }
+  
+  .traffic-helpline {
+    background-color: #2a9d8f;
+  }
+  
+  .anti-corruption {
+    background-color: #f8961e;
+  }
+  
+  .eyes-and-ears {
+    background-color: #9d4edd;
+  }
+  
+  .special-cell {
+    background-color: #90be6d;
+  }
+  
+  .missing-person {
+    background-color: #d00000;
+  }
+  
+  .anti-obscene {
+    background-color: #0be7d5;
+  }
+  
+ 
+  .fire-brigade {
+    border: 2px solid #e74c3c;
+    background-color: #ee6c4d;
+  }
+  
+  .railway-helpline {
+    background-color: #6a0572;
+  }
+  
